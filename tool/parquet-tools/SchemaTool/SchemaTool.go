@@ -213,7 +213,7 @@ func (cNode *Node) getStructTags() string {
 	}
 	tags := fmt.Sprintf("`parquet:\"name=%s, type=%s, repetitiontype=%s\"`", cNode.SE.Name, typeStr, rTStr)
 
-	if *pT == parquet.Type_FIXED_LEN_BYTE_ARRAY && cT == nil {
+	if pT != nil && *pT == parquet.Type_FIXED_LEN_BYTE_ARRAY && cT == nil {
 		length := cNode.SE.GetTypeLength()
 		tagStr := "`parquet:\"name=%s, type=%s, length=%d, repetitiontype=%s\"`"
 		tags = fmt.Sprintf(tagStr, cNode.SE.Name, pTStr, length, rTStr)
