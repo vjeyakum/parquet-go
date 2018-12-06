@@ -1,11 +1,11 @@
 package ParquetWriter
 
 import (
-	"github.com/xitongsys/parquet-go/Layout"
-	"github.com/xitongsys/parquet-go/Marshal"
-	"github.com/xitongsys/parquet-go/ParquetFile"
-	"github.com/xitongsys/parquet-go/SchemaHandler"
-	"github.com/xitongsys/parquet-go/parquet"
+	"github.com/vjeyakum/parquet-go/Layout"
+	"github.com/vjeyakum/parquet-go/Marshal"
+	"github.com/vjeyakum/parquet-go/ParquetFile"
+	"github.com/vjeyakum/parquet-go/SchemaHandler"
+	"github.com/vjeyakum/parquet-go/parquet"
 )
 
 type JSONWriter struct {

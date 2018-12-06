@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/xitongsys/parquet-go/ParquetFile"
-	"github.com/xitongsys/parquet-go/ParquetReader"
-	"github.com/xitongsys/parquet-go/tool/parquet-tools/SchemaTool"
+	"github.com/vjeyakum/parquet-go/ParquetFile"
+	"github.com/vjeyakum/parquet-go/ParquetReader"
+	"github.com/vjeyakum/parquet-go/tool/parquet-tools/SchemaTool"
 )
 
 func main() {

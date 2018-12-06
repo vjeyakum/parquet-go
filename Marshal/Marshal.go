@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/xitongsys/parquet-go/Common"
-	"github.com/xitongsys/parquet-go/Layout"
-	"github.com/xitongsys/parquet-go/ParquetType"
-	"github.com/xitongsys/parquet-go/SchemaHandler"
-	"github.com/xitongsys/parquet-go/parquet"
+	"github.com/vjeyakum/parquet-go/Common"
+	"github.com/vjeyakum/parquet-go/Layout"
+	"github.com/vjeyakum/parquet-go/ParquetType"
+	"github.com/vjeyakum/parquet-go/SchemaHandler"
+	"github.com/vjeyakum/parquet-go/parquet"
 )
 
 type Node struct {
